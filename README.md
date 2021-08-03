@@ -1,3 +1,6 @@
+# NFT-token-rendered-on-OpenSea-testnet-using-Brownie-IPFS-and-ERC721-standard
+Created Non-Fungible tokens using ERC721 standard and deployed on the Ethereum Blockchain. The NFT integrates with the IPFS and renders on the OpenSea testnet Marketplace. Technology used are Brownie-Python, Pinata-IPFS, ERC721, OpenSea, Web3py, Openzeppelin, solidity, Infura
+
 # nft-mix
 
 <br/>
@@ -71,7 +74,7 @@ AND THEN RUN `source .env` TO ACTIVATE THE ENV VARIABLES
 Or you can run the above in your shell. 
 
 
-# Useage
+# Usage
 
 There are 2 types of NFTs here. 
 1. `SimpleCollectibles.sol`
@@ -151,7 +154,7 @@ brownie run scripts/advanced_collectible/set_tokenuri.py --network rinkeby
 ```
 And after some time, (you may have to wait up to 20 minutes for it to render on opensea), you should see your NFT on opensea! [It'll look something like this.](https://testnets.opensea.io/assets/0x8acb7ca932892eb83e4411b59309d44dddbc4cdf/0)
 
-## *NEW* Pinata
+## Pinata
 
 If you want to auto-upload to pinata instead of IPFS automatically, you can do so by getting a [Pinata API Key.](https://pinata.cloud/documentation#GettingStarted)
 
@@ -189,10 +192,6 @@ To get started with Brownie:
 * Check out the other [Brownie mixes](https://github.com/brownie-mix/) that can be used as a starting point for your own contracts. They also provide example code to help you get started.
 * ["Getting Started with Brownie"](https://medium.com/@iamdefinitelyahuman/getting-started-with-brownie-part-1-9b2181f4cb99) is a good tutorial to help you familiarize yourself with Brownie.
 * For more in-depth information, read the [Brownie documentation](https://eth-brownie.readthedocs.io/en/stable/).
-
-Shoutout to [TheLinkMarines](https://twitter.com/TheLinkMarines) on twitter for the puppies!
-
-Any questions? Join our [Discord](https://discord.gg/2YHSAey)
 
 ## License
 
